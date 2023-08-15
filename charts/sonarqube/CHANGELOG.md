@@ -1,6 +1,10 @@
 # SonarQube Chart Changelog
 All changes to this chart will be documented in this file.
 
+## [10.2.5]
+* Update Chart's version to 10.2.5
+* Fix deployment template
+
 ## [10.2.4]
 * Update Chart's version to 10.2.4
 * Update annotation & label settings, add where needed for tivo-enforcer compliance

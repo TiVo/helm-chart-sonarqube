@@ -37,6 +37,8 @@ spec:
   template:
     metadata:
       labels:
+        app: {{ template "sonarqube.name" . }}
+        release: {{ .Release.Name }}
 {{- with .Values.podLabels }}
 {{ toYaml . | indent 8 }}
 {{- end }}
