@@ -1,6 +1,10 @@
 # SonarQube Chart Changelog
 All changes to this chart will be documented in this file.
 
+## [10.2.2]
+* Update Chart's version to 10.2.2
+* Restore ingress-nginx
+
 ## [10.2.1]
 * Update Chart's version to 10.2.1
 * Add map for site-specific annotations and make sure podLabels are set where needed for same
